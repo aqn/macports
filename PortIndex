@@ -1,0 +1,2 @@
+ruby-build 289
+portdir ruby/ruby-build description {Compile and install Ruby} homepage https://github.com/sstephenson/ruby-build epoch 0 platforms darwin name ruby-build depends_lib port:rbenv license MIT maintainers nomaintainer long_description {{Compile and install Ruby}} version 20130118 revision 0

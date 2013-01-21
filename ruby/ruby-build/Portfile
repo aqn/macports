@@ -4,7 +4,7 @@
 PortSystem          1.0
 PortGroup           github 1.0
 
-github.setup        sstephenson ruby-build 20130104 v
+github.setup        sstephenson ruby-build 20130118 v
 license             MIT
 platforms           darwin
 supported_archs     noarch
@@ -13,8 +13,8 @@ maintainers         nomaintainer
 
 description         Compile and install Ruby
 long_description    ${description}
-checksums           rmd160 8bcbf003aaeac548cf89ca344676bb355551dead \
-                    sha256 ae54c9eb8e61d6ccbb33a9702d4e391f105769007a818c8be3dafad38c5d9240
+checksums           rmd160 e2b0652feaa821acbf5c71e6f74f2cb906081ff0 \
+                    sha256 3c7ab2d96f056c2a7ac22c20037919c1c4a1f6906140f4bf891534b1086700cd
 
 use_configure       no
 build {}
